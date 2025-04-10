@@ -1,6 +1,4 @@
-const API_URL = 'http://localhost:3000/api'; 
-// Eliminar los métodos relacionados con facturas si existen en orderService.js
-// y dejar solo los métodos relacionados con pedidos
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api"
 
 const orderService = {
     getOrders: async () => {
