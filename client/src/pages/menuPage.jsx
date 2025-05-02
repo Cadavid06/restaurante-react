@@ -174,7 +174,7 @@ function MenuPage() {
     <div className="min-h-screen bg-gray-100 font-sans">
       {/* Header */}
       <div className="bg-blue-500 text-white py-5 px-4 text-center mb-8 shadow-md">
-        <h1 className="text-2xl font-bold">`Bienvenidos al Menú</h1>
+        <h1 className="text-2xl font-bold">Bienvenidos al Menú</h1>
       </div>
       {/* Search Bar */}
       <div className="px-4 mb-6">
